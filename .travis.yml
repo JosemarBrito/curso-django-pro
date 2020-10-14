@@ -12,6 +12,7 @@ env:
 
 install:
   - pip install pipenv
+  - pipenv install flake8
 
 script:
-  - pipenv run flake8
+  - pipenv run flake8 .
